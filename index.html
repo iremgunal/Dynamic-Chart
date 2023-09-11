@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic Chart</title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="apiUrlInput" placeholder="API URL'i girin...">
+
+        <button class="btn" id="fetchButton">API</button>
+        <button class="btn" id="refreshButton">Temizle</button>
+
+        <div class="inputs">
+            <label for="">X değişkeni</label>
+
+            <select id="dropdown1">
+                <option value="">Seçiniz</option>
+            </select>
+            <label for="">Y değişkeni</label>
+
+            <select id="dropdown2">
+                <option value="">Seçiniz</option>
+            </select>
+            <label for="">Grafik türü</label>
+
+            <select id="chartTypeDropdown">
+                <option value="line">Çizgi</option>
+                <option value="bar">Sütun</option>
+                <option value="radar">Radar</option>
+            </select>
+        </div>
+
+
+        <div class="chartBox">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

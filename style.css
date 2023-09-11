@@ -1,0 +1,89 @@
+ * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      .chartMenu {
+        width: 100vw;
+        height: 40px;
+        background: #1A1A1A;
+        color: rgba(54, 162, 235, 1);
+      }
+      .chartMenu p {
+        padding: 10px;
+        font-size: 20px;
+      }
+      .container {
+        width: 100vw;
+        height: calc(100vh - 40px);
+        background: rgba(246, 250, 192, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .chartBox {
+        width: 700px;
+        padding: 20px;
+        border-radius: 20px;
+        border: solid 3px rgb(255, 158, 3);
+        background: white;
+      }
+
+      .inputs{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 20vh;
+      }
+      select {
+        width: 100%;
+        padding: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+        border: 2px solid #f36d00;
+        border-radius: 10px;
+        background-color: #ffffff;
+        outline: none;
+        transition: border-color 0.2s;
+    }
+    select:hover {
+        border-color: #555;
+    }
+    
+    option {
+        font-size: 16px;
+    }
+    #apiUrlInput{
+      width: 20%;
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+      border: 2px solid #f36d00;
+      border-radius: 10px;
+      background-color: #ffffff;
+      outline: none;
+      transition: border-color 0.2s;
+     
+    }
+    .btn{
+      width: 20%;
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+      border: 2px solid #f36d00;
+      border-radius: 10px;
+      background-color: #f36d00;
+      color: white;
+      cursor: pointer;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .btn:hover{
+      background-color: #f36d00c0;
+      color: #ffffff;
+    }
+    .inputs label {
+      font-weight: bold; 
+      margin-right: 10px;
+  }
