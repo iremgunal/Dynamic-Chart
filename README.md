@@ -2,7 +2,10 @@
 <strong>Proje Adı:</strong> Dinamik Chart Uygulaması 
 
 
-https://github.com/iremgunal/Dynamic-Chart/assets/101289998/e367e78e-4027-4f04-b0d0-6c5acf60dce3
+
+https://github.com/iremgunal/Dynamic-Chart/assets/101289998/5e910012-79b0-4531-b956-3cec111310c7
+
+
 
 
 <strong>Açıklama:</strong> Bu proje kullanıcının uygun API URL’i girerek API’den alınan seçtiği
