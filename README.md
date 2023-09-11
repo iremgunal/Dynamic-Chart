@@ -7,7 +7,8 @@ https://github.com/iremgunal/Dynamic-Chart/assets/101289998/e367e78e-4027-4f04-b
 
 <strong>Açıklama:</strong> Bu proje kullanıcının uygun API URL’i girerek API’den alınan seçtiği
 verilerle istediği formatta (çizgi-sütun-radar) grafik oluşturmasını sağlar.
-Kullanılan Teknolojiler: HTML, CSS, JavaScript, Chart.js kütüphanesi
+
+<strong>Kullanılan Teknolojiler:</strong> HTML, CSS, JavaScript, Chart.js kütüphanesi
 
 <strong>Kullanım: </strong>
 
